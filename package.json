@@ -10,7 +10,8 @@
     "lint:js": "eslint --ext \".js,.vue\" .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
-    "test": "jest"
+    "test": "jest",
+    "test:w": "jest --watch"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
