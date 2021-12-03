@@ -1,0 +1,6 @@
+dist
+.nuxt
+.eslintrc.js
+jest.config.js
+nuxt.config.js
+stylelint.config.js
