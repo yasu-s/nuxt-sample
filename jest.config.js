@@ -20,5 +20,6 @@ module.exports = {
     '<rootDir>/components/**/*.vue',
     '<rootDir>/pages/**/*.vue'
   ],
+  testMatch: ['<rootDir>/test/**/*.(spec|test).(js|ts|vue)'],
   testEnvironment: 'jsdom'
 }

@@ -1,3 +1,4 @@
+<script lang="ts">
 import { mount } from '@vue/test-utils'
 import NuxtLogo from '@/components/NuxtLogo.vue'
 
@@ -7,3 +8,4 @@ describe('NuxtLogo', () => {
     expect(wrapper.vm).toBeTruthy()
   })
 })
+</script>
