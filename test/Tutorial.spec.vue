@@ -11,8 +11,9 @@ describe('Tutorial', () => {
 
   test('method', () => {
     const wrapper = shallowMount(Tutorial)
-    wrapper.vm.hoge()
-    expect(wrapper.vm.hoge).toBeTruthy()
+    console.log = jest.fn()
+    wrapper.vm.onClick()
+    expect(console.log).toHaveBeenCalledWith(wrapper.vm.value)
   })
 })
 </script>
